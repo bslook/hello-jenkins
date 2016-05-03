@@ -1,6 +1,6 @@
 #!/bin/sh
 ##  deploy script
-ssh app@54.210.138.24 <<EOF
+ssh app@54.227.213.35 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
