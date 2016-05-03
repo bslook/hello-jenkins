@@ -1,7 +1,7 @@
 #!/bin/sh
 ##  deploy script
 sudo su jenkins
-ssh app@54.227.213.35 <<EOF
+ssh app@54.175.139.146 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
